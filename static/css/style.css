@@ -1,0 +1,34 @@
+<?php
+/* ******************************************************
+Маргаритова Яна <margaritova.yana@yandex.ru>
+24/05/2016 02:20:00
+style.css - Главный css  файл, обычно используется для 
+написания css к главному шаблону
+********************************************************/
+?>
+p.information{
+	color: yellow;
+	font-size: 200%;
+}
+p.kategorii{
+	color: yellow;
+	font-size: 200%;
+}
+table{
+	width: 100%;
+	border-collapse: collapse;
+}
+td, tr{
+	border: 1px solid #000;
+}
+table.table_main{
+	background: #000;
+	color: #fff;
+}
+table.table_main td, table.table_main tr{
+	border: 0px solid #fff;
+}
+table.link td, table.link tr{
+	border: none;
+
+}
